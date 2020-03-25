@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Be the Hero project back-end",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoCBarbosa/be_the_hero.git"
+  },
+  "author": "Bruno Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoCBarbosa/be_the_hero/issues"
+  },
+  "homepage": "https://github.com/BrunoCBarbosa/be_the_hero#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  }
+}
