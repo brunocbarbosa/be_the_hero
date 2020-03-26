@@ -6,9 +6,14 @@ The back-end was created in nodejs.
 
 
 ## Dependencies
+back-end:
 - Express;
 - Knex;
 - cors;
+
+front-end
+- react-icons;
+- react-router-dom;
 
 ## Knex commands
 Knex is a query builder for any database, official site `http://knexjs.org/`
