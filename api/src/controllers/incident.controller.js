@@ -23,7 +23,7 @@ module.exports = {
         //This line will return the count, on header with the name X-Total-Count
         res.header('X-Total-Count', count['count(*)']);
 
-        return res.json({ incidents })
+        return res.json( incidents )
     },
 
     async create(req, res){
