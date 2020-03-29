@@ -2,10 +2,10 @@
   "name": "api",
   "version": "1.0.0",
   "description": "Be the Hero project back-end",
-  "main": "src/index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "test": "cross-env NODE_ENV=test jest"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,15 @@
   },
   "homepage": "https://github.com/BrunoCBarbosa/be_the_hero#readme",
   "dependencies": {
+    "celebrate": "^12.0.1",
     "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
     "express": "^4.17.1",
     "knex": "^0.20.13",
     "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "jest": "^25.2.3",
+    "supertest": "^4.0.2"
   }
 }

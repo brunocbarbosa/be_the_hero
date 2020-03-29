@@ -15,6 +15,10 @@ back-end:
 - Express;
 - Knex;
 - cors;
+- celebrate; 
+- jest;
+- cross-env;
+- supertest;
 
 front-end:
 - react-icons;
@@ -47,5 +51,18 @@ commands:
 - expo install expo-mail-composer: install email dependences. 
 - yarn start: Run the app.
 
+## Jest
+Test dependence:
+- npm install jest: install;
+- npx jest --init: start config and create the file jest.config.js;
+- npm test: execute test;
+
+## Cross Env
+Run scripts that set and use environment variables across platforms, 
+Usages in script:
+
+"scripts": {
+    "test": "cross-env NODE_ENV=test jest"
+},
 
 
